@@ -31,6 +31,8 @@ import pet from "../assets/Projects/pet-adoption.png";
 import job from "../assets/Projects/Job-Linker.png";
 import tourist from "../assets/Projects/Tourist.png";
 import Ecom from "../assets/Projects/e-com.png";
+import Mongoose from "../assets/skill-icon/mongoose.png";
+import Express from "../assets/skill-icon/express.png";
 
 export const navLinks = [
   {
@@ -105,7 +107,7 @@ const technologies = [
   },
   {
     name: "Express JS",
-    icon: docker,
+    icon: Express,
   },
   {
     name: "MongoDB",
@@ -113,7 +115,7 @@ const technologies = [
   },
   {
     name: "Mongoose",
-    icon: threejs,
+    icon: Mongoose,
   },
   {
     name: "git",

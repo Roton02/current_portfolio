@@ -22,7 +22,7 @@ import {
 
 const About = () => {
   return (
-    <div id="about" className="text-white py-20">
+    <div id="about" className="text-white pt-10">
       <div className="max-w-6xl mx-auto px-5">
         <div className="mb-5 md:mb-12 flex flex-col items-center">
           <h1 className="text-center font-bold text-3xl md:text-5xl pb-2">

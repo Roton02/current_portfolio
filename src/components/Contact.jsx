@@ -6,8 +6,11 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import Swal from "sweetalert2";
 
 const Contact = () => {
+
+  // console.log("env-testing",import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -37,9 +40,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Sana ullah roton",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "rph645102@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -47,7 +50,12 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          Swal.fire({
+            title: "Thank you. I will get back to you as soon as possible.",
+            icon: "success",
+            draggable: true
+          });
+          // alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
