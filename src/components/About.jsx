@@ -1,6 +1,6 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import bootstrap from "../assets/skill-icon/bootstrap.png";
+import redux from "../assets/skill-icon/redux.png";
 import nextImg from "../assets/skill-icon/next.png";
 import typescript from "../assets/skill-icon/typescript.png";
 import mongoose from "../assets/skill-icon/mongoose.png";
@@ -32,7 +32,7 @@ const About = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap- justify-between mt-16">
           <div>
-            <div className="lg:-mt-10">
+            <div className="lg:-mt-10 ">
               <div className="px-20  py-10  ml-14 ">
                 <img className="w-56  rounded-3xl ml-5" src={roton} alt="" />
                 <h1 className="text-3xl font-bold  mt-5  ">Sana Ullah Roton</h1>
@@ -184,6 +184,14 @@ const About = () => {
                           alt=""
                         />
                         <h4 className="font-semibold">TypeScript</h4>
+                      </li>
+                      <li className="flex gap-2">
+                        <img
+                          className="w-5 rounded-full"
+                          src={redux}
+                          alt=""
+                        />
+                        <h4 className="font-semibold">Redux Tolkit</h4>
                       </li>
                     </ul>
                   </div>

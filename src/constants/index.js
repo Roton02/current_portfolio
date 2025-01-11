@@ -25,6 +25,13 @@ import {
   threejs,
 } from "../assets";
 
+import asset from "../assets/Projects/Asset-flow.png";
+import food from "../assets/Projects/Food-picky.png";
+import pet from "../assets/Projects/pet-adoption.png";
+import job from "../assets/Projects/Job-Linker.png";
+import tourist from "../assets/Projects/Tourist.png";
+import Ecom from "../assets/Projects/e-com.png";
+
 export const navLinks = [
   {
     id: "about",
@@ -136,94 +143,138 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "How to Implement Dark Mode in Tailwind CSS in One Command",
+    name: "Roton",
+    designation: "Developer",
+    image: "https://i.postimg.cc/Y0nmTj0r/IMG-20250107-144953.jpg",
+    Link: "https://dev.to/roton2/how-to-implement-dark-mode-in-tailwind-css-in-one-command-4f82",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "How to Host a Project on Vercel Using a GitHub Repository",
+    name: "Roton",
+    designation: "Developer",
+    image: "https://i.postimg.cc/Y0nmTj0r/IMG-20250107-144953.jpg",
+    Link: "https://dev.to/roton2/how-to-host-a-project-on-vercel-using-a-github-repository-4aj3",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "How to Host a Project on Firebase Hosting",
+    name: "Roton",
+    designation: "Developer",
+    image: "https://i.postimg.cc/Y0nmTj0r/IMG-20250107-144953.jpg",
+    Link: "https://dev.to/roton2/how-to-host-a-project-on-firebase-hosting-37dg",
   },
+ 
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AssetFlow",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web app for businesses to manage assets and track employee usage, featuring role-based access, asset tracking, and inventory management with secure authentication.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Node",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: asset, // Add the image variable here
+    source_code_link:
+      "https://github.com/Roton02/AssetFlow-Asset_Management_System-", // Add the GitHub link
+    Live: "http://assetflow.com", // Replace with the actual live link
+  },
+  {
+    name: "FoodPicky",
+    description:
+      "A food-based platform where users can order, add to cart and wishlist, and manage order items, with advanced search and filters, and client reviews.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
         color: "green-text-gradient",
+      },
+    ],
+    image: food, // Add the image variable here
+    source_code_link: "https://github.com/Roton02/Food-picky-Client",
+    Live: "https://a11-kynus-foodie.web.app/",
+  },
+  {
+    name: "LapsePet",
+    description:
+      "A MERN stack platform connecting pets with potential adopters, offering donation campaigns, adoption requests, and admin dashboards for managing users and pets.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pet, // Add the image variable here
+    source_code_link: "https://github.com/Roton02/Lapse-pet-client",
+    Live: "https://ephemeral-queijadas-e60793.netlify.app/",
+  },
+  {
+    name: "JobLinker",
+    description:
+      "A job portal that connects job seekers with employers, allowing users to browse job listings, apply, and post job openings with secure authentication and search filters.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+    ],
+    image: job, // Add the image variable here
+    source_code_link: "https://github.com/Roton02/Job-Linker", // Replace with GitHub link if available
+    Live: "http://joblinker.com", // Replace with the actual live link
+  },
+  {
+    name: "GlobeGlimpse",
+    description:
+      "A platform displaying tourist spots in Asia, allowing users to add, manage, and filter spots by country, with dark mode and personalized experience.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tourist, // Add the image variable here
+    source_code_link: "https://github.com/Roton02/Globe-Glimpse-Client", // Replace with GitHub link if available
+    Live: "https://wondrous-daffodil-69d353.netlify.app/",
+  },
+  {
+    name: "E-Dokan",
+    description:
+      "A comprehensive e-commerce platform for browsing and purchasing products, featuring search, filtering, sorting, and secure user authentication using Firebase.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Ecom, // Add the image variable here
+    source_code_link: "https://github.com/Roton02/SinglePage_E-commerce-Client", // Replace with GitHub link if available
+    Live: "https://guileless-trifle-921e8c.netlify.app/",
   },
 ];
 
