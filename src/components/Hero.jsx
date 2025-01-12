@@ -22,7 +22,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div id="hero" className="max-w-6xl mx-auto px-5 p-10  md:mt-24 mt-10">
+    <div id="hero" className="max-w-6xl mx-auto px-7 md:px-16 md:p-10 pt-10 md:pt-0  mt-14 md:mt-28 ">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -573,7 +573,7 @@ const Hero = () => {
         }}
       />
       <div className="md:flex justify-between">
-        <div className="lg:w-2/3 md:mr-10 ">
+        <div className="lg:w-2/3 md:mr-10 md:mt-6">
           <h1 className="text-3xl md:mb-4  text-gray-300">
             {" "}
             Hi There 👋, <br />{" "}
@@ -606,10 +606,8 @@ const Hero = () => {
             applications, I'm dedicated to delivering seamless user experiences
             through clean, maintainable, and optimized code.
           </p>
-          <div className="mt- md:mt-8 md:ml-3 flex md:gap-5 gap-2 items-center">
-            <p className="md:text-xl text-nowrap font-semibold flex justify-center items-center gap-2">
-              Hire me <FaArrowRight />{" "}
-            </p>
+          <div className=" mt-3   items-center">
+            
             <a
               href="#_"
               class="inline-flex items-center justify-center h-8 px-2 md:h-12 md:px-5 py-0 text-xl font-semibold text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
@@ -644,9 +642,9 @@ const Hero = () => {
             </div> */}
           </div>
         </div>
-        <div className="image-container mt-7 md:mt-0">
+        <div className="image-container  md:mt-0">
           <img
-            className="w-[380px] md:h-[350px]  h-[300px] rounded-full main-image"
+            className="w-[380px] h-[350px]  lg:block hidden rounded-full main-image"
             src={roton_hero}
             alt=""
           />

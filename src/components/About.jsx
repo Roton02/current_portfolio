@@ -30,13 +30,19 @@ const About = () => {
           </h1>
           <img src={dividerImg} alt="" />
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap- justify-between  text-center md:mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap- justify-between  text-center md:mt-16">
           <div>
-            <div className="lg:-mt-10 ">
-              <div className="md:px-20   md:py-10  md:ml-14 ">
-                <img className="w-56 text-center  rounded-3xl md:ml-5 ml-10" src={roton} alt="" />
-                <h1 className="md:text-3xl text-xl text-nowrap font-bold  md:mt-5  ">Sana Ullah Roton</h1>
-                <h1 className="text-sm  md:ml-4">sanaullahroton01@gmail.com</h1>
+            <div className="lg:-mt-10 flex flex-col items-center justify-center ">
+              <div className="md:px-20   lg:py-10    md:ml-4 ">
+                <img
+                  className="w-56 text-center md:ml-6 rounded-3xl "
+                  src={roton}
+                  alt=""
+                />
+                <h1 className="md:text-3xl text-xl text-nowrap font-bold  md:mt-5  ">
+                  Sana Ullah Roton
+                </h1>
+                <h1 className="text-sm  ">sanaullahroton01@gmail.com</h1>
                 <button className="md:mt-4 mt-2 md:px-16">
                   <a
                     href="#_"
@@ -47,7 +53,7 @@ const About = () => {
 
                   <div>
                     <h1 className=" md:my-4 text-divider "> Social Links</h1>
-                    <div className="space-x-4">
+                    <div className="lg:space-x-4 space-x-2 text-nowrap">
                       <a href="https://www.linkedin.com/in/md-sana-ullah12/">
                         <button className="text-2xl">
                           <FaLinkedin />
@@ -186,11 +192,7 @@ const About = () => {
                         <h4 className="font-semibold">TypeScript</h4>
                       </li>
                       <li className="flex gap-2">
-                        <img
-                          className="w-5 rounded-full"
-                          src={redux}
-                          alt=""
-                        />
+                        <img className="w-5 rounded-full" src={redux} alt="" />
                         <h4 className="font-semibold">Redux </h4>
                       </li>
                     </ul>
@@ -238,7 +240,11 @@ const About = () => {
                         <h4 className="font-semibold">MongoDB</h4>
                       </li>
                       <li className="flex gap-2">
-                        <img className="w-5 rounded-full" src={mongoose} alt="" />
+                        <img
+                          className="w-5 rounded-full"
+                          src={mongoose}
+                          alt=""
+                        />
                         <h4 className="font-semibold">Mongoose</h4>
                       </li>
                     </ul>
@@ -266,7 +272,11 @@ const About = () => {
                         <h4 className="font-semibold">Figma</h4>
                       </li>
                       <li className="flex gap-2">
-                        <img className="w-5 rounded-full" src={githubImg} alt="" />
+                        <img
+                          className="w-5 rounded-full"
+                          src={githubImg}
+                          alt=""
+                        />
                         <h4 className="font-semibold">Github</h4>
                       </li>
                     </ul>

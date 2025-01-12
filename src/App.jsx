@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
+      <div className='relative z-0 bg-primary overflow-x-hidden'>
         <div className=''>
           <Navbar />
           <Hero />
