@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 lg:py-10 fixed top-0 z-20 ${
+      } w-full flex items-center py-5  fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       } `}
     >
@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-16 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Roton &nbsp;
           </p>

@@ -48,22 +48,22 @@ const About = () => {
                   <div>
                     <h1 className=" my-4 text-divider "> Social Links</h1>
                     <div className="space-x-4">
-                      <a href="/">
+                      <a href="https://www.linkedin.com/in/md-sana-ullah12/">
                         <button className="text-2xl">
                           <FaLinkedin />
                         </button>
                       </a>
-                      <a href="/">
+                      <a href="https://github.com/Roton02">
                         <button className="text-2xl">
                           <FaGithub />
                         </button>
                       </a>
-                      <a href="/">
+                      <a href="https://web.facebook.com/roton.chodiry/">
                         <button className="text-2xl">
                           <FaFacebook />
                         </button>
                       </a>
-                      <a href="/">
+                      <a href="https://wa.me/01569140343">
                         <button className="text-2xl">
                           <FaWhatsapp />
                         </button>

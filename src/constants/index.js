@@ -258,7 +258,7 @@ const projects = [
     ],
     image: tourist, // Add the image variable here
     source_code_link: "https://github.com/Roton02/Globe-Glimpse-Client", // Replace with GitHub link if available
-    Live: "https://wondrous-daffodil-69d353.netlify.app/",
+    Live: "https://astonishing-cendol-d7cdd7.netlify.app/",
   },
   {
     name: "E-Dokan",

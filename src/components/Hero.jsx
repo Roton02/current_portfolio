@@ -2,8 +2,14 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import roton_hero from "../assets/roton-hero.png";
-import { FaArrowRight, FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import { Typewriter } from 'react-simple-typewriter'
+import {
+  FaArrowRight,
+  FaFacebook,
+  FaGithub,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -16,7 +22,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="max-w-6xl mx-auto px-5 p-10  mt-24">
+    <div id="hero" className="max-w-6xl mx-auto px-5 p-10  mt-24">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -566,27 +572,47 @@ const Hero = () => {
           },
         }}
       />
-      <div className="flex justify-between">
-        <div className="w-2/3 mr-10 mt-7">
-          <h1 className="text-3xl  text-gray-300">
+      <div className="md:flex justify-between">
+        <div className="lg:w-2/3 md:mr-10 mt-">
+          <h1 className="text-3xl md:mb-4  text-gray-300">
             {" "}
             Hi There 👋, <br />{" "}
           </h1>
-          <h1 className="text-5xl font-bold mt-4">I'm Md sana Ullah Roton</h1>
-          <p className="text-4xl text-purple-300 mt-4"> A {'  '}
-          <Typewriter loop={true} words={['Frontend Developer' , 'Backend Developer' , 'Mern Stack Developer' , 'Full stack developer' , 'web developer ']} />
+          <div className="content  relative md:left-[292px] left-[144px] ">
+            <h1 className="md:text-5xl text-2xl text-nowrap font-bold mt-4 ">
+              I'm Md sana Ullah Roton
+            </h1>
+            <h1 className="md:text-5xl text-2xl text-nowrap font-bold mt-4 ">
+              I'm Md sana Ullah Roton
+            </h1>
+          </div>
+
+          <p className=" text-2xl md:text-4xl text-purple-300 md:mt-16 mt-10">
+            {" "}
+            A {"  "}
+            <Typewriter
+              loop={true}
+              words={[
+                "Frontend Developer",
+                "Backend Developer",
+                "Mern Stack Developer",
+                "Full stack developer",
+                "web developer ",
+              ]}
+            />
           </p>
-          <p className="mt-5 w- text-xl mr-6">
+          <p className="md:mt-2  md:text-xl lg:mr-6">
             With a passion for crafting intuitive and user-friendly web
             applications, I'm dedicated to delivering seamless user experiences
             through clean, maintainable, and optimized code.
           </p>
-          <div className="mt-8 ml-3 flex gap-5 items-center">
-
-            <p className="text-xl font-semibold flex justify-center items-center gap-2">Let's see my resume  <FaArrowRight/> </p>
+          <div className="mt- md:mt-8 md:ml-3 flex md:gap-5 gap-2 items-center">
+            <p className="md:text-xl text-nowrap font-semibold flex justify-center items-center gap-2">
+              Get the resume <FaArrowRight />{" "}
+            </p>
             <a
               href="#_"
-              class="inline-flex items-center justify-center h-12 px-5 py-0 text-xl font-semibold text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
+              class="inline-flex items-center justify-center h-8 px-2 md:h-12 md:px-5 py-0 text-xl font-semibold text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
             >
               Resume
             </a>
@@ -618,9 +644,9 @@ const Hero = () => {
             </div> */}
           </div>
         </div>
-        <div className="image-container">
+        <div className="image-container mt-7 md:mt-0">
           <img
-            className="w-[380px] h-[350px] rounded-full main-image"
+            className="w-[380px] md:h-[350px]  h-[300px] rounded-full main-image"
             src={roton_hero}
             alt=""
           />
