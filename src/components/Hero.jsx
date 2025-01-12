@@ -22,7 +22,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div id="hero" className="max-w-6xl mx-auto px-5 p-10  mt-24">
+    <div id="hero" className="max-w-6xl mx-auto px-5 p-10  md:mt-24 mt-10">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -573,7 +573,7 @@ const Hero = () => {
         }}
       />
       <div className="md:flex justify-between">
-        <div className="lg:w-2/3 md:mr-10 mt-">
+        <div className="lg:w-2/3 md:mr-10 ">
           <h1 className="text-3xl md:mb-4  text-gray-300">
             {" "}
             Hi There 👋, <br />{" "}
@@ -608,7 +608,7 @@ const Hero = () => {
           </p>
           <div className="mt- md:mt-8 md:ml-3 flex md:gap-5 gap-2 items-center">
             <p className="md:text-xl text-nowrap font-semibold flex justify-center items-center gap-2">
-              Get the resume <FaArrowRight />{" "}
+              Hire me <FaArrowRight />{" "}
             </p>
             <a
               href="#_"

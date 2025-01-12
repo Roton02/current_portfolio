@@ -30,23 +30,23 @@ const About = () => {
           </h1>
           <img src={dividerImg} alt="" />
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap- justify-between mt-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap- justify-between  text-center md:mt-16">
           <div>
             <div className="lg:-mt-10 ">
-              <div className="px-20  py-10  ml-14 ">
-                <img className="w-56  rounded-3xl ml-5" src={roton} alt="" />
-                <h1 className="text-3xl font-bold  mt-5  ">Sana Ullah Roton</h1>
-                <h1 className="text-sm  ml-4">sanaullahroton01@gmail.com</h1>
-                <button className="mt-4 px-16">
+              <div className="md:px-20   md:py-10  md:ml-14 ">
+                <img className="w-56 text-center  rounded-3xl md:ml-5 ml-10" src={roton} alt="" />
+                <h1 className="md:text-3xl text-xl text-nowrap font-bold  md:mt-5  ">Sana Ullah Roton</h1>
+                <h1 className="text-sm  md:ml-4">sanaullahroton01@gmail.com</h1>
+                <button className="md:mt-4 mt-2 md:px-16">
                   <a
                     href="#_"
-                    class="inline-flex items-center justify-center h-12 px-5 py-0 text-xl font-semibold text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
+                    class="inline-flex items-center justify-center h-8 px-2 md:h-12 md:px-5 py-0 text-xl font-semibold text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
                   >
                     Resume
                   </a>
 
                   <div>
-                    <h1 className=" my-4 text-divider "> Social Links</h1>
+                    <h1 className=" md:my-4 text-divider "> Social Links</h1>
                     <div className="space-x-4">
                       <a href="https://www.linkedin.com/in/md-sana-ullah12/">
                         <button className="text-2xl">
@@ -76,7 +76,7 @@ const About = () => {
           </div>
           <div>
             <Tabs>
-              <div className="about-tab">
+              <div className="about-tab px-0 text-nowrap mt-3 md:mt-3">
                 <TabList>
                   <Tab>About</Tab>
                   <Tab>Skills</Tab>
@@ -84,7 +84,7 @@ const About = () => {
                 </TabList>
               </div>
               <TabPanel>
-                <div className="">
+                <div className="text-start">
                   <div className="space-y-3">
                     <p className="text-sm space-y-3 mt-7">
                       <h1 className="text-3xl font-bold">Who I Am:</h1>
@@ -171,7 +171,7 @@ const About = () => {
                       </li>
                       <li className="flex gap-2">
                         <img className="w-5" src={reactRouter} alt="" />
-                        <h4 className="font-semibold">React router dom</h4>
+                        <h4 className="font-semibold text-nowrap">R. Router</h4>
                       </li>
                       <li className="flex gap-2">
                         <img className="w-5" src={nextImg} alt="" />
@@ -191,7 +191,7 @@ const About = () => {
                           src={redux}
                           alt=""
                         />
-                        <h4 className="font-semibold">Redux Tolkit</h4>
+                        <h4 className="font-semibold">Redux </h4>
                       </li>
                     </ul>
                   </div>
@@ -273,7 +273,7 @@ const About = () => {
                   </div>
                 </div>
               </TabPanel>
-              <TabPanel>
+              <TabPanel className="text-start">
                 <ul className="ml-5 mt-10">
                   <li className="list-disc ">
                     Computer science and Engineering <br />
@@ -292,8 +292,8 @@ const About = () => {
                     </span>
                   </li>
                 </ul>
-                <ul className="ml-5 mt-5">
-                  <li className="list-disc flex">
+                <ul className="ml-0 md:ml-5 mt-5">
+                  <li className="list-disc flex text-nowrap">
                     Web development Course
                     <a
                       href={ProgrammingHero}
@@ -304,7 +304,7 @@ const About = () => {
                       - Certificate <HiMiniArrowUpTray />
                     </a>
                   </li>
-                  <li className="list-disc flex">
+                  <li className="list-disc flex text-nowrap">
                     Communication hacks
                     <span className="flex gap-2 items-center ml-1 md:ml-7">
                       <a
