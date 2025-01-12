@@ -133,7 +133,7 @@ const experiences = [
     company_name: "Zinvera-it",
     icon: starbucks,
     iconBg: "#FFFFFF",
-    date: "September 2024 - Current",
+    date: "September 2024 - present",
     points: [
       "Full-Stack Development: Built and maintained both front-end (React) and back-end (Node.js, Express) applications.",
       "Team Leadership: Managed a team of 3 developers, overseeing project progress and ensuring code quality.",
