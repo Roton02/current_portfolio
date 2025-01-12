@@ -186,7 +186,7 @@ const projects = [
     image: asset, // Add the image variable here
     source_code_link:
       "https://github.com/Roton02/AssetFlow-Asset_Management_System-", // Add the GitHub link
-    Live: "http://assetflow.com", // Replace with the actual live link
+    Live: "https://assetflow-14.vercel.app/", 
   },
   {
     name: "FoodPicky",
@@ -240,7 +240,7 @@ const projects = [
     ],
     image: job, // Add the image variable here
     source_code_link: "https://github.com/Roton02/Job-Linker", // Replace with GitHub link if available
-    Live: "http://joblinker.com", // Replace with the actual live link
+    Live: "https://joblinker-14.vercel.app/", // Replace with the actual live link
   },
   {
     name: "GlobeGlimpse",
