@@ -12,6 +12,8 @@ import { HiMiniArrowUpTray } from "react-icons/hi2";
 import communicationHacks from "../assets/communication-hacks-certificate.pdf";
 import ProgrammingHero from "../assets/Programming hero_certificate.pdf";
 import roton from "../assets/roton.png";
+import resume from "../assets/Resume.pdf"
+
 import {
   FaCheckCircle,
   FaFacebook,
@@ -45,7 +47,9 @@ const About = () => {
                 <h1 className="text-sm  ">sanaullahroton01@gmail.com</h1>
                 <button className="md:mt-4 mt-2 md:px-16">
                   <a
-                    href="#_"
+                    href={resume}
+                    target="_blank"
+                    download={resume}
                     class="inline-flex items-center justify-center h-8 px-2 md:h-12 md:px-5 py-0 text-xl font-semibold text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
                   >
                     Resume
