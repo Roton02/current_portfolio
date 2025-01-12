@@ -145,7 +145,7 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: "How to Implement Dark Mode in Tailwind CSS in One Command",
+    testimonial: "How to Implement Dark Mode in Tailwind CSS in One Command ",
     name: "Roton",
     designation: "Developer",
     image: "https://i.postimg.cc/Y0nmTj0r/IMG-20250107-144953.jpg",
