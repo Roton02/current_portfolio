@@ -59,7 +59,7 @@ const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+        className={`bg-tertiary rounded-2xl  ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What I Write </p>
@@ -74,5 +74,8 @@ const Feedbacks = () => {
     </div>
   );
 };
+
+
+
 
 export default SectionWrapper(Feedbacks, "");
