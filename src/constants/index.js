@@ -141,6 +141,19 @@ const experiences = [
       "Testing & Deployment: Led testing, debugging, and deployment of applications to production environments.",
     ],
   },
+  {
+    title: "SPI  |  Web Mentor",
+    company_name: "Shariatpur polytechnic institute  ",
+    icon: starbucks,
+    iconBg: "#FFFFFF",
+    date: "Shariatpur , Bangladesh",
+    points: [
+      "Educated students on HTML, CSS, JavaScript, and modern frameworks, emphasizing industry relevance.",
+      "Created customized learning paths and project guidelines to help students achieve their career goals effectively.",
+      "Assisted students in debugging and solving coding problems, fostering practical problem-solving abilities.",
+      "Organized Meetings to encourage students, emphasizing the importance of continuous learning and innovation in web development.",
+    ],
+  },
 ];
 
 const testimonials = [
