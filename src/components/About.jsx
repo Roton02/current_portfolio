@@ -49,7 +49,6 @@ const About = () => {
                   <a
                     href="https://drive.google.com/file/d/11rWYrtBypqNsGheYLI81GLcdKnKaVHHp/view?usp=sharing"
                     target="_blank"
-                    download={resume}
                     class="inline-flex items-center justify-center h-8 px-2 md:h-12 md:px-5 py-0 text-xl font-semibold text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
                   >
                     Resume
