@@ -1,76 +1,76 @@
-import { FaGithubSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import logo from "../assets/roton-hero.png";
-import ScrollToTop from "react-scroll-to-top";
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
+import ScrollToTop from 'react-scroll-to-top'
 
 const Footer = () => {
   return (
-    <div className="">
+    <div className='bg-[#090325] text-white'>
+      {/* Scroll To Top Button */}
       <ScrollToTop
-        className="bg-[#090325] , flex justify-center  items-center rounded-full"
         smooth
+        className='flex justify-center items-center rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white'
       />
 
-      <div className="">
-        <div className="flex justify-center items-center py-5">
-          <div className="text-white text-center w-full pt-5 space-y-5">
-            <ul className="flex justify-center">
-              <li>
-                <a
-                  href="#hero"
-                  className="border-r border-white text-white px-3 md:px-4 text-sm lg:text-lg"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#about"
-                  className="border-r border-white text-white px-3 md:px-4 text-sm lg:text-lg"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#Projects"
-                  className="border-r border-white text-white px-3 md:px-4 text-sm lg:text-lg"
-                >
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#work"
-                  className="text-white px-3 md:px-4 text-sm lg:text-lg"
-                >
-                  Work
-                </a>
-              </li>
-            </ul>
-            <div className="flex gap-3 justify-center">
-              {/* <a target="_blank" href="" className="text-2xl ml-2"><FaFacebookSquare className="text-[#159CF8]" /></a> */}
-              <a
-                target="_blank"
-                href="https://github.com/Roton02"
-                className="text-3xl ml-2 social-icon text-gray-200 bg-primary"
-              >
-                <FaGithubSquare />
+      {/* Main Footer Content */}
+      <div className='container mx-auto px-4 py-8'>
+        <div className='flex flex-col items-center space-y-5'>
+          {/* Navigation Links */}
+          <ul className='flex flex-wrap justify-center space-x-4 md:space-x-6 text-sm md:text-base'>
+            <li>
+              <a href='#hero' className='hover:text-indigo-400 transition-all'>
+                Home
               </a>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/md-sana-ullah12/"
-                className="text-3xl ml-2 social-icon"
-              >
-                <FaLinkedin className="text-gray-200 bg-primary" />
+            </li>
+            <li>
+              <a href='#about' className='hover:text-indigo-400 transition-all'>
+                About
               </a>
-            </div>
-            <p className="text-sm md:text-lg">Created by Sana ullah Roton</p>
+            </li>
+            <li>
+              <a
+                href='#Projects'
+                className='hover:text-indigo-400 transition-all'
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href='#work' className='hover:text-indigo-400 transition-all'>
+                Work
+              </a>
+            </li>
+          </ul>
+
+          {/* Social Icons */}
+          <div className='flex space-x-4 text-3xl'>
+            <a
+              href='https://github.com/Roton02'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='hover:text-indigo-400 transition-all'
+            >
+              <FaGithubSquare />
+            </a>
+            <a
+              href='https://www.linkedin.com/in/md-sana-ullah12/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='hover:text-indigo-400 transition-all'
+            >
+              <FaLinkedin />
+            </a>
           </div>
+
+          {/* Footer Text */}
+          <p className='text-sm md:text-base text-center'>
+            © {new Date().getFullYear()} Created by{' '}
+            <span className='text-indigo-400 font-medium'>
+              Sana Ullah Roton
+            </span>
+          </p>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
