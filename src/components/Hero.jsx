@@ -2,13 +2,6 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import roton_hero from "../assets/roton-hero.png";
-import {
-  FaArrowRight,
-  FaFacebook,
-  FaGithub,
-  FaLinkedin,
-  FaWhatsapp,
-} from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 // import resume from "../assets/Resume.pdf"
 
@@ -612,7 +605,7 @@ const Hero = () => {
           </p>
           <div className=" mt-3   items-center">
             <a
-              href="https://drive.google.com/file/d/11rWYrtBypqNsGheYLI81GLcdKnKaVHHp/view?usp=sharing"
+              href="https://drive.google.com/file/d/1OtCLUE5mtWWAN_n_aNiKbf3ZjjI5F_n1/view?usp=drive_link"
               target="_blank"
               class="inline-flex items-center justify-center h-8 px-2 md:h-12 md:px-5 py-0 text-xl font-semibold text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline"
             >

@@ -7,7 +7,7 @@ const Footer = () => {
       {/* Scroll To Top Button */}
       <ScrollToTop
         smooth
-        className='flex justify-center items-center rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white'
+        className='flex mb-16 justify-center items-center rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white'
       />
 
       {/* Main Footer Content */}
